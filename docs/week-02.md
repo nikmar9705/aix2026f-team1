@@ -127,14 +127,14 @@ Place the route **before** `router.get('/memos/:id')` to avoid parameter collisi
 
 | | 확인 항목 | 결과 |
 | :-: | :-- | :-- |
-| ① | 실행 성공까지 걸린 시간 | 분 |
-| ② | 없는 함수·컬럼을 지어낸 개수 | 개 |
-| | → 지어낸 이름 | |
-| ③ | `CONVENTIONS.md` 위반 개수 | 개 |
-| | → 무엇을 어겼는가 | |
-| ④ | 사람이 직접 고친 지점 | 곳 |
-| | → 어디를 어떻게 | |
-| ⑤ | **본인 메모만 반환되는가** | 예 / 아니오 |
+| ① | 실행 성공까지 걸린 시간 | 2분 |
+| ② | 없는 함수·컬럼을 지어낸 개수 | 1개 |
+| | → 지어낸 이름 | searchMemos|
+| ③ | `CONVENTIONS.md` 위반 개수 | 0개 |
+| | → 무엇을 어겼는가 | ✓ DB queries only in service.js ✓ Verb-based function name ✓ Response format correct ✓ Error code uppercase_underscore ✓ CamelCase variables|
+| ④ | 사람이 직접 고친 지점 | 0곳 |
+| | → 어디를 어떻게 | - |
+| ⑤ | **본인 메모만 반환되는가** | 예 |
 
 ### ⑤번을 반드시 확인하세요
 
