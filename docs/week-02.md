@@ -136,6 +136,15 @@ Place the route **before** `router.get('/memos/:id')` to avoid parameter collisi
 | | → 어디를 어떻게 | - |
 | ⑤ | **본인 메모만 반환되는가** | 예 |
 
+
+| ① | 실행 성공까지 걸린 시간 | 코드 생성 1분 5초 / 실행 실패 (Node.js 미설치) |
+| ② | 없는 함수·컬럼을 지어낸 개수 | 5개 |
+| | → 지어낸 이름 | content(→body), memoStore.js(→service.js), src/ 폴더, data/memos.json(→DB), createdAt·updatedAt(→snake_case) |
+| ③ | `CONVENTIONS.md` 위반 개수 | 4개 |
+| | → 무엇을 어겼는가 | ①권한 — 모든 쿼리에 user_id 조건 없음 ②명명 — search는 허용 동사 아님 ③컬럼 카멜케이스 사용 ④검증 실패 시 400 대신 빈 배열 반환 |
+| ④ | 사람이 직접 고친 지점 | 0곳 — 실행 불가로 수정 시도 없음 |
+| ⑤ | **본인 메모만 반환되는가** | **아니오** |
+
 ### ⑤번을 반드시 확인하세요
 
 생성된 SQL에 `user_id` 조건이 들어 있는지 보세요.
