@@ -68,7 +68,56 @@
 ### 실제로 붙여넣은 것 (원문 그대로, 요약 금지)
 
 ```
-(여기에 붙여넣기)
+Brrroo, I need to clarify one thing before I write the code: should the search be **case-insensitive**? (e.g., "memo" matches "MEMO" and "Memo")
+
+Assuming yes (standard for search features), here's what to add:
+
+## service.js — Add this function:
+
+```javascript
+/**
+ * 메모에서 키워드를 검색한다. 제목과 본문에서 검색한다.
+ */
+function searchMemos(userId, keyword) {
+  const pattern = `%${keyword}%`;
+  return db.all(
+    `SELECT id, title, created_at
+       FROM memos
+      WHERE user_id = ?
+        AND (title LIKE ? COLLATE NOCASE OR body LIKE ? COLLATE NOCASE)
+      ORDER BY created_at DESC`,
+    [userId, pattern, pattern]
+  );
+}
+
+module.exports = { listMemos, getMemo, createMemo, searchMemos };
+```
+
+## routes.js — Add this route:
+
+```javascript
+// 메모 검색
+router.get('/memos/search', async (req, res) => {
+  const { q } = req.query;
+
+  if (!q || q.trim() === '') {
+    return res.status(400).json({ ok: false, error: 'SEARCH_QUERY_REQUIRED' });
+  }
+
+  const memos = await service.searchMemos(req.user.id, q.trim());
+  res.json({ ok: true, data: memos });
+});
+```
+
+**Key points:**
+- `COLLATE NOCASE` makes search case-insensitive
+- `%keyword%` allows matching anywhere in title/body
+- Returns only user's own memos (`user_id` filter)
+- `q.trim()` removes leading/trailing whitespace before validation
+- Returns 400 if q is empty or whitespace-only
+- Follows your response format and naming conventions
+
+Place the route **before** `router.get('/memos/:id')` to avoid parameter collision.
 ```
 
 > 요약하지 마세요. 나중에 이 기록이 무엇이 결과를 만들었는지 확인하는 근거가 됩니다.
