@@ -66,6 +66,12 @@
 
 ### 실제로 붙여넣은 것 (원문 그대로, 요약 금지)
 
+**A조**
+
+메모 검색 기능 만들어줘. 제목이랑 본문에서 키워드로 찾을 수 있게.
+
+**B조**
+
 ```
 Brrroo, I need to clarify one thing before I write the code: should the search be **case-insensitive**? (e.g., "memo" matches "MEMO" and "Memo")
 
