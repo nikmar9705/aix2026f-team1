@@ -12,10 +12,10 @@
 
  `memo-seed` 저장소를 엽니다. 다음 파일이 있는지 확인하세요.
 
-- [ ] `schema.sql`
-- [ ] `service.js`
-- [ ] `routes.js`
-- [ ] `CONVENTIONS.md`
+- [O] `schema.sql`
+- [O] `service.js`
+- [O] `routes.js`
+- [O] `CONVENTIONS.md`
 
 ---
 
