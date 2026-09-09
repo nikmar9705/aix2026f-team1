@@ -236,7 +236,7 @@ module.exports = router;
 
 | | 확인 항목 | 결과 |
 | :-: | :-- | :-- |
-| ① | 실행 성공까지 걸린 시간 | **15분** (또는 JavaScript Express 프로젝트로 전체 재작성 필요로 **실패**)|
+| ① | 실행 성공까지 걸린 시간 | **3분** (또는 JavaScript Express 프로젝트로 전체 재작성 필요로 **실패**)|
 | ② | 없는 함수·컬럼을 지어낸 개수 | **N/A (3개)** |
 | | → 지어낸 이름 | `MemoManager` 클래스, `add_memo()`, `search_memos()` (Node.js/SQL 프로젝트 대신 파이썬 인메모리 배열 객체를 새로 지어냄) |
 | ③ | `CONVENTIONS.md` 위반 개수 | **전체 위반 (3개 이상)**|
