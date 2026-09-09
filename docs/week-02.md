@@ -4,7 +4,7 @@
 | :-- | :-- |
 | 팀명 |4Frantic|
 | 작성일 |9일 9월|
-| 참여자 | |AMMAR COMEL|
+| 참여자 | |AMMAR X COMEL|
 ---
 
 ## 0. 준비
