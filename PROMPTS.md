@@ -56,9 +56,17 @@ Required Deliverables:
 """
 
 **결과에 대한 판단 / Decisions**
-- 채택한 부분과 이유 / Accepted, because: takpaham
-- 수정한 부분과 이유 / Changed, because: tatahu
-- 폐기한 부분과 이유 / Rejected, because: manada kena reject. humph!
+- 채택한 부분과 이유 / Accepted, because: 전체 채택. schema.sql과 대조한 결과
+  지어낸 컬럼이 없었고, 쿼리에 WHERE user_id = ? 가 포함되어 있었으며,
+  계층 분리·응답 형식·에러 코드 규약을 모두 지켰다. 기존 listMemos, getMemo와
+  작성 방식도 같았다.
+
+- 수정한 부분과 이유 / Changed, because: 없음. 라우트를 /memos/:id 보다 위에
+  배치해야 한다는 점도 에이전트가 스스로 알려줬다.
+
+- 폐기한 부분과 이유 / Rejected, because: 없음. 다만 함수명 searchMemos의
+  "search"가 CONVENTIONS.md의 허용 동사 목록(list, get, create, update, remove)에
+  없어 규약 위반 1건으로 기록했다.
 
 **검증 방법 / How it was verified**
 
