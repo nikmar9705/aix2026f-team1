@@ -248,27 +248,15 @@ module.exports = router;
 
 | | 확인 항목 | 결과 |
 | :-: | :-- | :-- |
-| ① | 실행 성공까지 걸린 시간 | 2분 |
-| ② | 없는 함수·컬럼을 지어낸 개수 | 1개 |
-| | → 지어낸 이름 | searchMemos|
+| ① | 실행 성공까지 걸린 시간 | 1분 |
+| ② | 없는 함수·컬럼을 지어낸 개수 | 0개 |
+| | → 지어낸 이름 |없음. id, title, body, created_at, user_id 모두 schema.sql에 존재|
 | ③ | `CONVENTIONS.md` 위반 개수 | 0개 |
-| | → 무엇을 어겼는가 | ✓ DB queries only in service.js ✓ Verb-based function name ✓ Response format correct ✓ Error code uppercase_underscore ✓ CamelCase variables|
+| | → 무엇을 어겼는가 |없음. 계층 분리·응답 형식·명명 규칙·user_id 조건 모두 준수 |
 | ④ | 사람이 직접 고친 지점 | 0곳 |
-| | → 어디를 어떻게 | - |
+| | → 어디를 어떻게 |코드를 읽고 판단했으나 고칠 지점을 찾지 못했다. 라우트 순서(/memos/search를 /memos/:id 위에 두는 것)는 에이전트가 먼저 경고했으므로 사람의 수정으로 세지 않았다.|
 | ⑤ | **본인 메모만 반환되는가** | 예 |
 
-### B조 (자료 전체 제공) alternate
-
-| | 확인 항목 | 결과 |
-| :-: | :-- | :-- |
-| ① | 실행 성공까지 걸린 시간 | 0개 |
-| ② | 없는 함수·컬럼을 지어낸 개수 | 0개 | 
-| | → 지어낸 이름 | - |
-| ③ | `CONVENTIONS.md` 위반 개수 | 1개 | 
-| | → 무엇을 어겼는가 | searchMemos — verb-first rule is satisfied, but "search" isn't in the approved list (list, get, create, update, remove). Team decides if that list is exhaustive.|
-| ④ | 사람이 직접 고친 지점 | 0곳 |
-| | → 어디를 어떻게 | Route must go above /memos/:id, but the agent flagged this itself rather than getting it wrong |
-| ⑤ | **본인 메모만 반환되는가** | 예 |
 
 ### ⑤번을 반드시 확인하세요
 
