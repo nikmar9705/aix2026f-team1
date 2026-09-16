@@ -19,9 +19,9 @@
 
 | 네 요소 Four elements | 후보 A | 후보 B | 후보 C |
 |---|---|---|---|
-| 사용자 Who |  |  |  |
-| 상황 When/Where |  |  |  |
-| 페인포인트 What — 무엇이 **얼마나** |  |  |  |
+| 사용자 Who |  |  | Hanyang Student |
+| 상황 When/Where |  |  | During course registration & Course registration website |
+| 페인포인트 What — 무엇이 **얼마나** |  |  | Lost access after accidental page refresh |
 | 성공 기준 Done |  |  |  |
 
 **한 문장으로 / One sentence each** — 네 칸을 이어 붙여 소리 내어 읽어 보세요.
