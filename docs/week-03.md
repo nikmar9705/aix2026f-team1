@@ -23,6 +23,10 @@
 | 상황 When/Where | 시험기간. 예약이 열리는 1주 전 시점에 한양대 홈페이지 예약 시스템에서 스터디룸을 잡으려는 때 |  |  |
 | 페인포인트 What — 무엇이 **얼마나** | 예약이 열리자마자 방이 전부 차서 한 주 내내 한 번도 잡지 못했다. 혼자라면 과방이나 집으로 가면 되지만, 여럿이 모여야 할 때는 대신 갈 곳을 알 방법이 없다 |  |  |
 | 성공 기준 Done | 스터디룸 예약에 실패한 학생이, 지금 여럿이 앉을 수 있는 곳이 어디인지 확인하고 그곳으로 갈 수 있다 |  |  |
+| 사용자 Who |  |  | Hanyang Student |
+| 상황 When/Where |  |  | During course registration & Course registration website |
+| 페인포인트 What — 무엇이 **얼마나** |  |  | Lost access after accidental page refresh |
+| 성공 기준 Done |  |  |  |
 
 **한 문장으로 / One sentence each** — 네 칸을 이어 붙여 소리 내어 읽어 보세요.
 형식: **[사용자]는 [상황]에서 [페인포인트] 때문에 [손해]를 본다.**
