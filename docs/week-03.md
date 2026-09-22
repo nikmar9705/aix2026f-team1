@@ -138,7 +138,7 @@ A and B Interview questions(if exist):
   후보 B의 문제 아이디어를 정리하고, Who / When-Where / What / Done 형식에 맞게 작성하기 위해 사용했다.
 
 - **넣은 프롬프트 원문 그대로 / Exact prompt:**
-  "maybe as foreigner live in korea like me"
+ "give me some daily life problems as a Muslim foreign student in Korea"
 
 - **쓴 것 / 버린 것 / Used / Discarded:**
   AI의 아이디어를 참고하여 한국에 거주하는 외국인 학생이 일상생활에서 겪는 문제를 후보 B로 발전시켰다. 특히 한국에서 할랄 음식을 찾거나 음식을 선택할 때 겪는 어려움에 대한 내용을 사용했다.
