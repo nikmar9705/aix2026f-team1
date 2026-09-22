@@ -19,7 +19,7 @@
 
 | 네 요소 Four elements | 후보 A | 후보 B | 후보 C |
 |---|---|---|---|
-| 사용자 Who | 한국어를 잘 읽지 못해 교내 행사·공모전 포스터의 내용을 이해하기 어려운 에리카 외국인 유학생 | People who struggle to finish their groceries before they expire |
+| 사용자 Who | 한국어를 잘 읽지 못해 교내 행사·공모전 포스터의 내용을 이해하기 어려운 에리카 외국인 유학생 | ERICA 캠퍼스의 무슬림 유학생(예: 말레이시아/인도네시아/중동 학생) |People who struggle to finish their groceries before they expire |
 | 상황 When/Where | 학기 중 참여할 행사나 공모전을 찾을 때 — 건물 게시판에 붙은 포스터, 학과 홈페이지 공지, 단톡방·인스타에 공유된 포스터 이미지를 볼 때 |무엇을 먹을지 결정할 때 — 학교 식당, 안산 주변 식당, 또는 새로운 곳/제품을 시도할 때  | When buying groceries in bulk and then forgetting to use them |
 | 페인포인트 What — 무엇이 **얼마나** | 포스터가 한국어로만 되어 있어 참가 자격, 마감일, 신청 방법을 알 수 없다. 번역기로 찍어 봐도 이미지 속 글자가 제대로 번역되지 않아, 지원할 수 있었던 행사를 [N]번 놓치거나 아예 찾아보기를 포기한다 |할랄 여부를 바로 확인할 수 없음 — 직접 재료를 확인하거나 가게에 물어봐야 함(언어 장벽으로 더 어려움), 또는 새로운 곳을 피하고 같은 안전한 선택만 반복함. 확인당 약 10~15분 소요, 라벨이 불명확해 애매한 음식을 먹기도 함  | Food goes bad, leading to wasted food and money. It can also encourage users to dine outside, which leads to additional spending. |
 | 성공 기준 Done | 외국인 유학생이 자신이 참여할 수 있는 교내 행사·공모전을 찾고, 자격·마감일·신청 방법을 이해해 마감 전에 지원한다 |식당이나 제품의 할랄 가능성에 대한 학생 후기/스크리닝 정보를 2~3분 이내에 찾을 수 있고, 매번 따로 물어보거나 검색할 필요가 없음  | Users no longer forget to eat/use their groceries before they go bad. |
