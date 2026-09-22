@@ -2,8 +2,8 @@
 
 **도메인 문제 발굴 / Domain problem discovery**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 9월 22일
+- 참여자 / Present: 아마르, 아디브, 아이만, 아킬
 
 ---
 
