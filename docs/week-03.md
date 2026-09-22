@@ -19,17 +19,17 @@
 
 | 네 요소 Four elements | 후보 A | 후보 B | 후보 C |
 |---|---|---|---|
-| 사용자 Who | 시험기간에 조별로 모여 공부하거나 팀플을 해야 하는 에리카 재학생 |  | People who struggle to finish their groceries before they expire |
-| 상황 When/Where | 시험기간. 예약이 열리는 1주 전 시점에 한양대 홈페이지 예약 시스템에서 스터디룸을 잡으려는 때 |  | When buying groceries in bulk and then forgetting to use them |
-| 페인포인트 What — 무엇이 **얼마나** | 예약이 열리자마자 방이 전부 차서 한 주 내내 한 번도 잡지 못했다. 혼자라면 과방이나 집으로 가면 되지만, 여럿이 모여야 할 때는 대신 갈 곳을 알 방법이 없다 |  | Food goes bad, leading to wasted food and money. It can also encourage users to dine outside, which leads to additional spending. |
-| 성공 기준 Done | 스터디룸 예약에 실패한 학생이, 지금 여럿이 앉을 수 있는 곳이 어디인지 확인하고 그곳으로 갈 수 있다 |  | Users no longer forget to eat/use their groceries before they go bad. |
+| 사용자 Who | 시험기간에 조별로 모여 공부하거나 팀플을 해야 하는 에리카 재학생 |ERICA 캠퍼스의 무슬림 유학생(예: 말레이시아/인도네시아/중동 학생)  | People who struggle to finish their groceries before they expire |
+| 상황 When/Where | 시험기간. 예약이 열리는 1주 전 시점에 한양대 홈페이지 예약 시스템에서 스터디룸을 잡으려는 때 |무엇을 먹을지 결정할 때 — 학교 식당, 안산 주변 식당, 또는 새로운 곳/제품을 시도할 때  | When buying groceries in bulk and then forgetting to use them |
+| 페인포인트 What — 무엇이 **얼마나** | 예약이 열리자마자 방이 전부 차서 한 주 내내 한 번도 잡지 못했다. 혼자라면 과방이나 집으로 가면 되지만, 여럿이 모여야 할 때는 대신 갈 곳을 알 방법이 없다 |할랄 여부를 바로 확인할 수 없음 — 직접 재료를 확인하거나 가게에 물어봐야 함(언어 장벽으로 더 어려움), 또는 새로운 곳을 피하고 같은 안전한 선택만 반복함. 확인당 약 10~15분 소요, 라벨이 불명확해 애매한 음식을 먹기도 함  | Food goes bad, leading to wasted food and money. It can also encourage users to dine outside, which leads to additional spending. |
+| 성공 기준 Done | 스터디룸 예약에 실패한 학생이, 지금 여럿이 앉을 수 있는 곳이 어디인지 확인하고 그곳으로 갈 수 있다 |식당이나 제품의 할랄 가능성에 대한 학생 후기/스크리닝 정보를 2~3분 이내에 찾을 수 있고, 매번 따로 물어보거나 검색할 필요가 없음  | Users no longer forget to eat/use their groceries before they go bad. |
 
 **한 문장으로 / One sentence each** — 네 칸을 이어 붙여 소리 내어 읽어 보세요.
 형식: **[사용자]는 [상황]에서 [페인포인트] 때문에 [손해]를 본다.**
 읽었을 때 어색하면 그 칸이 아직 덜 채워진 것입니다.
 
 - A: 시험기간에 조별로 모여야 하는 학생은 스터디룸 예약이 1주 전에 열리자마자 마감되기 때문에, 대신 어디로 가야 할지 모른 채 모임이 흩어진다.
-- B: 
+- B: 새로운 곳을 시도하고 싶은 ERICA 무슬림 유학생은, 함께 정보를 찾고 공유할 방법이 없어서 매번 재료를 확인하거나 가게에 물어보는 데 10~15분을 낭비한다.
 - C: People who buy groceries in bulk sometimes forget to use them before they expire, causing food and money to be wasted and potentially leading to additional spending on eating out.
 
 > 무엇을 **만들지는 쓰지 않습니다.**  기능은 4~5주차에 정합니다. / Describe the problem, not the solution.
@@ -50,7 +50,7 @@
 
 | 질문 | 후보 A | 후보 B | 후보 C |
 |---|---|---|---|
-| 이 안에 **누구의 정보**가 들어가는가<br>그 사람이 우리 사용자와 같은 사람인가 |  |  | Only the user's grocery information, such as the food they bought, purchase date, and expiration date. |
+| 이 안에 **누구의 정보**가 들어가는가<br>그 사람이 우리 사용자와 같은 사람인가 |  |학생이 작성한 식당/음식 리뷰 및 평가. 리뷰 작성자 = 사용자와 같은 사람 (서로 정보를 공유하는 무슬림 학생들)  | Only the user's grocery information, such as the food they bought, purchase date, and expiration date. |
 | 쓰고 싶어도 **못 쓰는 사람**은 누구인가 |  |  | none |
 
 ---
@@ -74,7 +74,7 @@
 | # | 후보 | 우리가 사실이라 믿는 것 | 방법 | 누구에게 / 무엇을 | 담당 | 기한 |
 |---|---|---|---|---|---|---|
 | 1 | C | People actually forget about groceries they bought and allow them to expire. | Interview | random people |  |  |
-| 2 |  |  |  |  |  |  |
+| 2 | B | ERICA 무슬림 학생들은 새로운 곳에서 식사하기 전 재료를 확인하거나 가게에 물어보는 데 실제로 의미 있는 시간을 쓴다  |인터뷰   | 무슬림 유학생 |  |  |
 | 3 |  |  |  |  |  |  |
 
 > **인터뷰를 쓴다면** 팀원 외 3명 이상,이 문제를 겪고 있는 당사자를 포함하세요.
@@ -86,9 +86,10 @@
 
 > 불편해도 사람들은 이미 나름대로 하고 있습니다. 예) 문제를 공유하고 싶은 문제가 있을때 카톡 전송, 엑셀 파일 메일로 보내기, 그냥 포기하기 — **도구가 아니어도 답입니다.**
 
-- **지금은 어떻게 하고 있는가** (도구가 없으면 "그냥 포기한다"도 답): 
+- **지금은 어떻게 하고 있는가** (도구가 없으면 "그냥 포기한다"도 답):
+- B : 가게에 직접 물어보거나 재료를 수동으로 확인함. 새로운 곳은 피하고 이미 아는 안전한 선택지만 반복해서 이용함
 - **그래서 충분한가** — 충분하지 않다면 무엇이 부족한가: 
-
+- 충분하지 않음 — 물어보는 것 자체가 번역 문제로 더 어렵고, 확인할 때마다 10~15분이 소요되며, 애매한 경우 그냥 포기하고 먹지 않거나 불확실한 채로 먹게 됨
 
 **인터뷰를 한다면, 물어볼 질문 3개 / If you interview, your three questions**
 
@@ -101,10 +102,10 @@
   3. What do you wish you had done differently to prevent the food from going bad?
 
 A and B Interview questions(if exist):
-
-1.
-2.
-3.
+(B)
+  1.최근에 새로운 곳에서 먹기 전에 할랄인지 확인하느라 시간을 쓴 적이 있었나요?
+  2.그때 실제로 어떻게 확인했나요 — 가게에 물어봤나요, 검색했나요, 친구에게 물어봤나요? 시간은 얼마나 걸렸나요?
+  3.확인하는 게 너무 번거로워서 확실하지 않은 채로 그냥 먹은 적이 있었나요?
 
 **관찰·데이터·직접 해보기를 한다면 / If you observe instead**
 
