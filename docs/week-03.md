@@ -116,49 +116,32 @@ A and B Interview questions(if exist):
 
 ## 4. AI 사용 기록 / AI use log  → `PROMPTS.md`
 
-# AI 사용 기록 / AI Use Log
+> **전부 남기지 않습니다.** AI가 만든 것이 **산출물에 실제로 들어갔을 때만** 남깁니다.
+> Log only what actually made it into your work — not every question you asked.
 
-## AI Use Log 1 — Candidate A
+| 상황 | 기록? |
+|---|---|
+| "EARS가 뭐야?" 같은 개념 질문, 번역, 오타 수정 | 안 함 |
+| AI가 뽑아준 인터뷰 질문을 3절에 옮겨 적음 | **함** |
+| AI에게 후보 아이디어를 받아 1절에 반영함 | **함** |
+| 받았지만 안 쓰기로 한 것 중, 판단이 오래 걸린 것 | **함** |
 
-- **무엇을 하려고 썼는가 / What did we use AI for?**
+**주당 최대 3건.** 3건을 넘으면 가장 중요한 3건만 고릅니다. 억지로 채우지 마세요.
+나머지는 한 줄로 / Summarise the rest in one line: 
 
+`PROMPTS.md`에 남길 것 — 건당 네 줄이면 충분합니다
 
-- **넣은 프롬프트 원문 그대로 / Exact prompt:**
+- 무엇을 하려고 썼는가
+- 넣은 프롬프트 **원문 그대로** — 요약하지 않습니다
+- 나온 것 중 **쓴 것 / 버린 것**
+- **버렸다면 왜 버렸는가** — 이 한 줄을 봅니다
 
+> 주의 / Caution
+> AI가 만들어준 문제 후보에는 **사용자가 없습니다.** 그럴듯한 문장만 있습니다.
+> 그대로 1절에 옮기면 '가짜 사용자형'이 됩니다. 사용자는 여러분이 찾아야 합니다.
 
-- **쓴 것 / 버린 것 / Used / Discarded:**
-
-
-- **버렸다면 왜 버렸는가 / Why discarded:**
-
-
-## AI Use Log 2 — Candidate B
-
-- **무엇을 하려고 썼는가 / What did we use AI for?**
-  후보 B의 문제 아이디어를 정리하고, Who / When-Where / What / Done 형식에 맞게 작성하기 위해 사용했다.
-
-- **넣은 프롬프트 원문 그대로 / Exact prompt:**
- "give me some daily life problems as a Muslim foreign student in Korea"
-
-- **쓴 것 / 버린 것 / Used / Discarded:**
-  AI의 아이디어를 참고하여 한국에 거주하는 외국인 학생이 일상생활에서 겪는 문제를 후보 B로 발전시켰다. 특히 한국에서 할랄 음식을 찾거나 음식을 선택할 때 겪는 어려움에 대한 내용을 사용했다.
-
-- **버렸다면 왜 버렸는가 / Why discarded:**
-  AI가 제안한 내용 중 우리 팀의 실제 경험과 맞지 않거나 확인되지 않은 내용은 사용하지 않았다.
-
-
-## AI Use Log 3 — Candidate C
-
-- **무엇을 하려고 썼는가 / What did we use AI for?**
-
-
-- **넣은 프롬프트 원문 그대로 / Exact prompt:**
-
-
-- **쓴 것 / 버린 것 / Used / Discarded:**
-
-
-- **버렸다면 왜 버렸는가 / Why discarded:**
+- [ ] 해당 건을 `PROMPTS.md`에 기록했다 / Logged in `PROMPTS.md`
+- [ ] 산출물에 들어간 AI 결과물이 없다 / Nothing from AI made it into our work
 
 ---
 
