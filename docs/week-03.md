@@ -73,7 +73,7 @@
 
 | # | 후보 | 우리가 사실이라 믿는 것 | 방법 | 누구에게 / 무엇을 | 담당 | 기한 |
 |---|---|---|---|---|---|---|
-| 1 |  |  |  |  |  |  |
+| 1 | C | People actually forget about groceries they bought and allow them to expire. | Interview | random people |  |  |
 | 2 |  |  |  |  |  |  |
 | 3 |  |  |  |  |  |  |
 
