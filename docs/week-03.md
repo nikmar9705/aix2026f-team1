@@ -28,9 +28,9 @@
 형식: **[사용자]는 [상황]에서 [페인포인트] 때문에 [손해]를 본다.**
 읽었을 때 어색하면 그 칸이 아직 덜 채워진 것입니다.
 
-- A:시험기간에 조별로 모여야 하는 학생은 스터디룸 예약이 1주 전에 열리자마자 마감되기 때문에, 대신 어디로 가야 할지 모른 채 모임이 흩어진다.
+- A: 시험기간에 조별로 모여야 하는 학생은 스터디룸 예약이 1주 전에 열리자마자 마감되기 때문에, 대신 어디로 가야 할지 모른 채 모임이 흩어진다.
 - B: 
-- C:People who buy groceries in bulk sometimes forget to use them before they expire, causing food and money to be wasted and potentially leading to additional spending on eating out.
+- C: People who buy groceries in bulk sometimes forget to use them before they expire, causing food and money to be wasted and potentially leading to additional spending on eating out.
 
 > 무엇을 **만들지는 쓰지 않습니다.**  기능은 4~5주차에 정합니다. / Describe the problem, not the solution.
 
@@ -95,9 +95,15 @@
 > 과거형으로. "쓰시겠어요?"(X) → "최근에 그런 적 있으셨어요?"(O)
 > 미래 의향을 물으면 대부분 "네"가 나옵니다.
 
-1. 
-2. 
-3. 
+(C)
+  1. Why does your food usually go bad before you use it?
+  2. How do you feel when you find out that your food has gone bad?
+  3. What do you wish you had done differently to prevent the food from going bad?
+
+A and B Interview questions(if exist):
+1.
+2.
+3.
 
 **관찰·데이터·직접 해보기를 한다면 / If you observe instead**
 
@@ -132,7 +138,7 @@
 > AI가 만들어준 문제 후보에는 **사용자가 없습니다.** 그럴듯한 문장만 있습니다.
 > 그대로 1절에 옮기면 '가짜 사용자형'이 됩니다. 사용자는 여러분이 찾아야 합니다.
 
-- [ ] 해당 건을 `PROMPTS.md`에 기록했다 / Logged in `PROMPTS.md`
+- [O] 해당 건을 `PROMPTS.md`에 기록했다 / Logged in `PROMPTS.md`
 - [ ] 산출물에 들어간 AI 결과물이 없다 / Nothing from AI made it into our work
 
 ---
