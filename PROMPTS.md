@@ -76,6 +76,7 @@ By looking at the complexity and how long it takes to run each codes.
 
 ## [이슈 #_3_] 제목 / Title
 
+Candidate A
 **목표(스펙) / Spec**
 - 입력 Input:
 - 처리 Processing:
@@ -91,6 +92,39 @@ By looking at the complexity and how long it takes to run each codes.
 
 **검증 방법 / How it was verified**
 
+Candidate B
+**목표(스펙) / Spec**
+- 입력 Input:
+- 처리 Processing:
+- 출력 Output:
+- 실패 조건 Failure:
+
+**요청한 프롬프트 요지 / Prompt (summary)**
+
+**결과에 대한 판단 / Decisions**
+- 채택한 부분과 이유 / Accepted, because:
+- 수정한 부분과 이유 / Changed, because:
+- 폐기한 부분과 이유 / Rejected, because:
+
+**검증 방법 / How it was verified**
+
+Candidate C
+**목표(스펙) / Spec**
+- 입력 Input: Candidate C의 문제와 “쓰고 싶어도 못 쓰는 사람은 누구인가?” 항목
+- 처리 Processing: AI에게 해당 항목에 들어갈 사람을 질문함.
+- 출력 Output: 별도의 제3자는 없다고 판단함
+- 실패 조건 Failure: 존재하지 않는 이해관계자를 임의로 추가하는 것
+
+**요청한 프롬프트 요지 / Prompt (summary)**
+ Candidate C에서 “쓰고 싶어도 못 쓰는 사람은 누구인가?”에 누가 해당하는지 질문함.
+   
+**결과에 대한 판단 / Decisions**
+- 채택한 부분과 이유 / Accepted, because: 별도의 제3자가 없다는 판단을 채택함.
+- 수정한 부분과 이유 / Changed, because: “없음”에서 이유를 덧붙여 구체적으로 작성함.
+- 폐기한 부분과 이유 / Rejected, because: 근거 없이 다른 이해관계자를 추가하는 것은 적절하지 않아 제외함.
+
+**검증 방법 / How it was verified**
+현재 문제의 정보 흐름을 검토하여 판단함.
 ---
 
 ## [이슈 #__] 제목 / Title
