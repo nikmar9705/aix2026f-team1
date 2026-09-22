@@ -19,16 +19,16 @@
 
 | 네 요소 Four elements | 후보 A | 후보 B | 후보 C |
 |---|---|---|---|
-| 사용자 Who | 시험기간에 조별로 모여 공부하거나 팀플을 해야 하는 에리카 재학생 |ERICA 캠퍼스의 무슬림 유학생(예: 말레이시아/인도네시아/중동 학생)  | People who struggle to finish their groceries before they expire |
-| 상황 When/Where | 시험기간. 예약이 열리는 1주 전 시점에 한양대 홈페이지 예약 시스템에서 스터디룸을 잡으려는 때 |무엇을 먹을지 결정할 때 — 학교 식당, 안산 주변 식당, 또는 새로운 곳/제품을 시도할 때  | When buying groceries in bulk and then forgetting to use them |
-| 페인포인트 What — 무엇이 **얼마나** | 예약이 열리자마자 방이 전부 차서 한 주 내내 한 번도 잡지 못했다. 혼자라면 과방이나 집으로 가면 되지만, 여럿이 모여야 할 때는 대신 갈 곳을 알 방법이 없다 |할랄 여부를 바로 확인할 수 없음 — 직접 재료를 확인하거나 가게에 물어봐야 함(언어 장벽으로 더 어려움), 또는 새로운 곳을 피하고 같은 안전한 선택만 반복함. 확인당 약 10~15분 소요, 라벨이 불명확해 애매한 음식을 먹기도 함  | Food goes bad, leading to wasted food and money. It can also encourage users to dine outside, which leads to additional spending. |
-| 성공 기준 Done | 스터디룸 예약에 실패한 학생이, 지금 여럿이 앉을 수 있는 곳이 어디인지 확인하고 그곳으로 갈 수 있다 |식당이나 제품의 할랄 가능성에 대한 학생 후기/스크리닝 정보를 2~3분 이내에 찾을 수 있고, 매번 따로 물어보거나 검색할 필요가 없음  | Users no longer forget to eat/use their groceries before they go bad. |
+| 사용자 Who | 한국어를 잘 읽지 못해 교내 행사·공모전 포스터의 내용을 이해하기 어려운 에리카 외국인 유학생 | People who struggle to finish their groceries before they expire |
+| 상황 When/Where | 학기 중 참여할 행사나 공모전을 찾을 때 — 건물 게시판에 붙은 포스터, 학과 홈페이지 공지, 단톡방·인스타에 공유된 포스터 이미지를 볼 때 |무엇을 먹을지 결정할 때 — 학교 식당, 안산 주변 식당, 또는 새로운 곳/제품을 시도할 때  | When buying groceries in bulk and then forgetting to use them |
+| 페인포인트 What — 무엇이 **얼마나** | 포스터가 한국어로만 되어 있어 참가 자격, 마감일, 신청 방법을 알 수 없다. 번역기로 찍어 봐도 이미지 속 글자가 제대로 번역되지 않아, 지원할 수 있었던 행사를 [N]번 놓치거나 아예 찾아보기를 포기한다 |할랄 여부를 바로 확인할 수 없음 — 직접 재료를 확인하거나 가게에 물어봐야 함(언어 장벽으로 더 어려움), 또는 새로운 곳을 피하고 같은 안전한 선택만 반복함. 확인당 약 10~15분 소요, 라벨이 불명확해 애매한 음식을 먹기도 함  | Food goes bad, leading to wasted food and money. It can also encourage users to dine outside, which leads to additional spending. |
+| 성공 기준 Done | 외국인 유학생이 자신이 참여할 수 있는 교내 행사·공모전을 찾고, 자격·마감일·신청 방법을 이해해 마감 전에 지원한다 |식당이나 제품의 할랄 가능성에 대한 학생 후기/스크리닝 정보를 2~3분 이내에 찾을 수 있고, 매번 따로 물어보거나 검색할 필요가 없음  | Users no longer forget to eat/use their groceries before they go bad. |
 
 **한 문장으로 / One sentence each** — 네 칸을 이어 붙여 소리 내어 읽어 보세요.
 형식: **[사용자]는 [상황]에서 [페인포인트] 때문에 [손해]를 본다.**
 읽었을 때 어색하면 그 칸이 아직 덜 채워진 것입니다.
 
-- A: 시험기간에 조별로 모여야 하는 학생은 스터디룸 예약이 1주 전에 열리자마자 마감되기 때문에, 대신 어디로 가야 할지 모른 채 모임이 흩어진다.
+- A: 참여할 행사를 찾는 에리카 외국인 유학생은 교내 포스터가 한국어로만 되어 있어 자격·마감일·신청 방법을 알 수 없기 때문에, 지원할 수 있었던 행사와 공모전을 놓친다.
 - B: 새로운 곳을 시도하고 싶은 ERICA 무슬림 유학생은, 함께 정보를 찾고 공유할 방법이 없어서 매번 재료를 확인하거나 가게에 물어보는 데 10~15분을 낭비한다.
 - C: People who buy groceries in bulk sometimes forget to use them before they expire, causing food and money to be wasted and potentially leading to additional spending on eating out.
 
