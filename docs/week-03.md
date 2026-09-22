@@ -96,16 +96,20 @@
 > 과거형으로. "쓰시겠어요?"(X) → "최근에 그런 적 있으셨어요?"(O)
 > 미래 의향을 물으면 대부분 "네"가 나옵니다.
 
-(C)
-  1. Why does your food usually go bad before you use it?
-  2. How do you feel when you find out that your food has gone bad?
-  3. What do you wish you had done differently to prevent the food from going bad?
-
-A and B Interview questions(if exist):
+(A)
+  1. 최근에 교내 포스터를 보고 관심이 생긴 행사나 공모전이 있었나요? 그때 내용을 어떻게 알아보셨어요?
+  2. 포스터 내용을 이해하지 못해서 지원하지 못했거나 마감을 놓친 적이 있나요? 몇 번쯤이었나요?
+  3. 교내 행사나 공모전 소식은 주로 어디서 알게 되셨어요?
+     
 (B)
   1.최근에 새로운 곳에서 먹기 전에 할랄인지 확인하느라 시간을 쓴 적이 있었나요?
   2.그때 실제로 어떻게 확인했나요 — 가게에 물어봤나요, 검색했나요, 친구에게 물어봤나요? 시간은 얼마나 걸렸나요?
   3.확인하는 게 너무 번거로워서 확실하지 않은 채로 그냥 먹은 적이 있었나요?
+
+(C)
+  1. Why does your food usually go bad before you use it?
+  2. How do you feel when you find out that your food has gone bad?
+  3. What do you wish you had done differently to prevent the food from going bad?
 
 **관찰·데이터·직접 해보기를 한다면 / If you observe instead**
 
