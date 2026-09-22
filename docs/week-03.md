@@ -19,10 +19,10 @@
 
 | 네 요소 Four elements | 후보 A | 후보 B | 후보 C |
 |---|---|---|---|
-| 사용자 Who | 시험기간에 조별로 모여 공부하거나 팀플을 해야 하는 에리카 재학생 |  | Hanyang Student |
-| 상황 When/Where | 시험기간. 예약이 열리는 1주 전 시점에 한양대 홈페이지 예약 시스템에서 스터디룸을 잡으려는 때 |  | During course registration & Course registration website |
-| 페인포인트 What — 무엇이 **얼마나** | 예약이 열리자마자 방이 전부 차서 한 주 내내 한 번도 잡지 못했다. 혼자라면 과방이나 집으로 가면 되지만, 여럿이 모여야 할 때는 대신 갈 곳을 알 방법이 없다 |  | Lost access after accidental page refresh. Students need to wait a few minute and logging in again after waiting. |
-| 성공 기준 Done | 스터디룸 예약에 실패한 학생이, 지금 여럿이 앉을 수 있는 곳이 어디인지 확인하고 그곳으로 갈 수 있다 |  | Refreshing website doesn't cause such a problem anymore and student can use it with less nuisance |
+| 사용자 Who | 시험기간에 조별로 모여 공부하거나 팀플을 해야 하는 에리카 재학생 |  | People who struggle to finish their groceries before they expire |
+| 상황 When/Where | 시험기간. 예약이 열리는 1주 전 시점에 한양대 홈페이지 예약 시스템에서 스터디룸을 잡으려는 때 |  | When buying groceries in bulk and then forgetting to use them |
+| 페인포인트 What — 무엇이 **얼마나** | 예약이 열리자마자 방이 전부 차서 한 주 내내 한 번도 잡지 못했다. 혼자라면 과방이나 집으로 가면 되지만, 여럿이 모여야 할 때는 대신 갈 곳을 알 방법이 없다 |  | Food goes bad, leading to wasted food and money. It can also encourage users to dine outside, which leads to additional spending. |
+| 성공 기준 Done | 스터디룸 예약에 실패한 학생이, 지금 여럿이 앉을 수 있는 곳이 어디인지 확인하고 그곳으로 갈 수 있다 |  | Users no longer forget to eat/use their groceries before they go bad. |
 
 **한 문장으로 / One sentence each** — 네 칸을 이어 붙여 소리 내어 읽어 보세요.
 형식: **[사용자]는 [상황]에서 [페인포인트] 때문에 [손해]를 본다.**
@@ -30,7 +30,7 @@
 
 - A:시험기간에 조별로 모여야 하는 학생은 스터디룸 예약이 1주 전에 열리자마자 마감되기 때문에, 대신 어디로 가야 할지 모른 채 모임이 흩어진다.
 - B: 
-- C:During course registration period, students unable to register their wanted classes in time because of one accidental refresh clicks which cause the website to be unable to access for a few minutes
+- C:People who buy groceries in bulk sometimes forget to use them before they expire, causing food and money to be wasted and potentially leading to additional spending on eating out.
 
 > 무엇을 **만들지는 쓰지 않습니다.**  기능은 4~5주차에 정합니다. / Describe the problem, not the solution.
 
