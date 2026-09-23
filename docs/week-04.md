@@ -12,7 +12,7 @@
 | 항목 Item | 내용 |
 |---|---|
 | 선택한 주제 Chosen | B |
-| 선택 근거 Why | Because us as a Muslim can relate deeply to our problem. It can directly helps our community and ease our doubt in daily life food consumption. |
+| 선택 근거 Why | 저희는 무슬림으로서 이 문제에 대해 깊이 공감할 수 있습니다. 또한 이 문제는 저희 커뮤니티에 직접적인 도움을 줄 수 있으며, 일상적인 음식 섭취에 대한 불확실성과 고민을 줄이는 데 도움이 될 수 있습니다. |
 
 ## ② 성공 기준 가져오기 / Success criteria from Week 3
 
