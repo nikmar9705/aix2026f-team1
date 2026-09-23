@@ -11,8 +11,8 @@
 
 | 항목 Item | 내용 |
 |---|---|
-| 선택한 주제 Chosen |  |
-| 선택 근거 Why |  |
+| 선택한 주제 Chosen | B |
+| 선택 근거 Why | Because us as a Muslim can relate deeply to our problem. It can directly helps our community and ease our doubt in daily life food consumption. |
 
 ## ② 성공 기준 가져오기 / Success criteria from Week 3
 
