@@ -2,8 +2,8 @@
 
 **문제 발굴 / Finding a problem**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 9월 23일
+- 참여자 / Present: 아마르, 아디브, 아이만, 아킬
 - 결과보고서 / Report chapter: 1장 문제 정의와 사용자
 - 최종 반영 / Feeds into: 기획서 재료 / material for the plan
 
