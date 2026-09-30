@@ -16,50 +16,49 @@
 
 ## ② 태스크 분해와 의존 관계 / Tasks and dependencies
 
-### 태스크 목록 / Task list
-
-4주차 사용자 스토리와 완료 조건을 태스크로 나눕니다.
-*Break down your Week 4 user stories and acceptance criteria into tasks.*
-
-각 태스크는 따로 끝내도 맞는지 확인할 수 있어야 합니다. 담당에 '다 같이'는 쓰지 않습니다.
-*Each task must be checkable on its own. Do not write "everyone" as owner.*
+앱 구조: **3개 화면**
+1. 지도 화면 — 하단 탭: Restaurants / Nearby
+2. 식당 상세 화면
+3. Settings 화면
 
 | # | 태스크 Task | 완료 조건 Done when | 선행 태스크 Depends on | 담당 Owner |
 |---|---|---|---|---|
-| T1 | 음식 정보 데이터 형식 정하기 | 식당명, 음식명, 재료, 할랄 및 적합 여부를 저장할 항목이 정해진다. | 없음 | 아킬 |
-| T2 | 검색 화면 만들기 | 사용자가 식당이나 음식 이름을 입력할 수 있는 화면이 완성된다. | 없음 | 아마르 |
-| T3 | 음식 정보 데이터 준비하기 | 예시 식당과 음식의 정보가 정해진 데이터 형식으로 저장된다. | T1 | 아디브 |
-| T4 | 음식 정보 검색 기능 만들기 | 사용자가 입력한 이름으로 관련 음식 정보를 찾을 수 있다. | T1, T2, T3 | 아이만 |
-| T5 | 검색 결과 화면 만들기 | 검색 결과에 음식의 재료와 할랄 및 적합 여부 정보가 표시된다. | T4 | 아마르 |
-| T6 | 정보가 없을 때 안내하기 | 정보가 없거나 충분하지 않으면 "정보를 확인할 수 없습니다"라는 메시지가 표시된다. | T4 | 아디브 |
+| T1 | [Must] 데이터 형식 정하기 | 식당명, 주소, 좌표, 추천 수와 음식명, 재료, 상태(✅⚠️❌), 주문 조건의 필드가 정해진다. | 없음 | 아킬 |
+| T2 | [Must] 식당 데이터 수집하기 | ERICA 주변 식당 10개 이상과 각 식당의 음식 1개 이상이 데이터 형식에 맞게 정리된다. | T1 | 아디브 |
+| T3 | [Must] Google Sheet 데이터 불러오기 | 시스템이 Google Sheet에서 식당 데이터 1개 이상을 가져온다. | T1 | 아이만 |
+| T4 | [Must] 지도 화면 만들기 | 지도에 더미 좌표를 사용한 식당 핀이 표시된다. | 없음 | 아마르 |
+| T5 | [Must] 실제 식당을 지도에 표시하기 | Google Sheet의 식당이 실제 데이터로 지도에 핀으로 표시된다. | T3, T4 | 아마르 |
+| T6 | [Must] 식당 상세 화면 만들기 | 식당을 선택하면 음식 상태(✅⚠️❌), 주문 조건, 공식 할랄 인증이 아니라는 안내가 표시된다. | T2, T5 | 아디브 |
+| T7 | [Must] 정보 없음 안내 만들기 | 음식 정보가 없으면 "정보를 확인할 수 없습니다"가 표시된다. | T6 | 아디브 |
+| T8 | [Should] Restaurants 탭 만들기 | 식당이 추천 수가 높은 순서로 표시되고, 선택하면 상세 화면으로 이동한다. | T3, T6 | 아마르 |
+| T9 | [Should] 현재 위치 확인하기 | 위치 권한을 허용하면 현재 좌표를 가져오고, 거부하면 안내 문구를 표시한다. | 없음 | 아킬 |
+| T10 | [Should] Nearby 탭 만들기 | 현재 위치에서 100m 이내의 식당만 표시되고, 없으면 "100m 이내에 식당이 없습니다"를 표시한다. | T3, T9 | 아킬 |
+| T11 | [Should] 가상 위치 기능 만들기 | 목록에서 위치를 선택하면 현재 위치로 사용되고 Nearby 목록이 변경된다. | T10 | 아이만 |
+| T12 | [Should] Settings 화면 만들기 | Strict / Flexible을 변경하면 ⚠️ 음식의 표시 여부가 변경된다. | T6 | 아이만 |
 
 ### 의존 관계 그래프 / Dependency graph (DAG)
 
-화살표는 "앞 태스크가 끝나야 뒤 태스크를 할 수 있다"는 뜻입니다.
-*An arrow means the first task must finish before the second can start.*
-
-**그리는 방법 / How to draw**
-- 아래 예시에서 상자 이름을 바꾸고, 선후 관계 하나마다 화살표(`-->`) 줄을 하나씩 추가합니다. GitHub에서 파일을 열면 그림으로 보입니다. 미리 보려면 mermaid.live에 붙여 넣으세요.
-  *Rename the boxes and add one `-->` line per dependency. GitHub shows it as a diagram. Preview at mermaid.live.*
-- 태스크 표를 AI에게 주고 "Mermaid 그래프로 바꿔 줘"라고 요청해도 됩니다.
-  *You can also give the task table to AI and ask "Convert this into a Mermaid graph."*
-- 어려우면 종이에 그려 사진을 `docs/images/`에 올리고 `![DAG](images/week-05-dag.jpg)`로 넣어도 됩니다.
-  *Or draw it on paper, upload the photo to `docs/images/` and link it with `![DAG](images/week-05-dag.jpg)`.*
-
 ```mermaid
 graph LR
-  T1["T1: 데이터 형식 정하기"] --> T3["T3: 음식 정보 데이터 준비"]
-  T1 --> T4["T4: 검색 기능 만들기"]
-  T2["T2: 검색 화면 만들기"] --> T4
-  T3 --> T4
-  T4 --> T5["T5: 검색 결과 화면"]
-  T4 --> T6["T6: 정보 없음 안내"]
+  T1["T1 데이터 형식 정하기"] --> T2["T2 식당 데이터 수집"]
+  T1 --> T3["T3 Google Sheet 데이터 불러오기"]
+
+  T4["T4 지도 화면 만들기"] --> T5["T5 실제 식당 지도 표시"]
+  T3 --> T5
+
+  T2 --> T6["T6 식당 상세 화면"]
+  T5 --> T6
+  T6 --> T7["T7 정보 없음 안내"]
+
+  T3 --> T8["T8 Restaurants 탭"]
+  T6 --> T8
+
+  T9["T9 현재 위치 확인"] --> T10["T10 Nearby 탭"]
+  T3 --> T10
+  T10 --> T11["T11 가상 위치"]
+
+  T6 --> T12["T12 Settings 화면"]
 ```
-
-- 지금 착수 가능 (진입 차수 0) / Can start now (in-degree 0): T1, T2
-- 작업 순서 (위상정렬) / Work order (topological sort): T1과 T2를 먼저 진행한다. T1이 끝나면 T3를 진행한다. T1, T2, T3가 모두 끝나면 T4를 진행한다. 그 후 T5와 T6을 진행한다.
-- 사이클이 있었다면 어떻게 풀었는가 / If there was a cycle, how did you fix it?: 사이클이 없다. 각 태스크의 선행 관계를 정해서 작업 순서를 정했다.
-
 ---
 
 ## ③ 범위 결정 / Scope
