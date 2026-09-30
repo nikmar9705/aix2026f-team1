@@ -2,8 +2,8 @@
 
 **1-page 기획서 / One-page plan**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 30일 9월
+- 참여자 / Present: 아디브, 아이만, 아킬, 아마르
 
 ---
 
