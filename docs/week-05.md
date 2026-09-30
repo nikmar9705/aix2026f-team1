@@ -9,8 +9,8 @@
 
 ## ① 주제 확정 / Confirm topic
 
-- 확정 주제 / Topic: 
-- 이유 / Reason: 
+- 확정 주제 / Topic: Halal Hunter (HxH)
+- 이유 / Reason: Muslim students in Ansan struggle to verify which food and places are halal. With very few certified halal listings available, they rely on word of mouth from other students and personal experience, which are often unreliable. 
 
 ---
 
