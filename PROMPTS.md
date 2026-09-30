@@ -182,6 +182,25 @@ Candidate C
 - 각 Acceptance Criteria가 정상 경로 2개와 실패 경로 1개로 구성되어 있는지 확인한다.
 - 각 요구사항이 조건, 시스템 주체, 동작 및 결과를 포함하여 EARS 형식으로 작성되었는지 확인한다.
 ---
+## [이슈 # 5] 태스크 분해 및 의존 관계 작성 / Task Decomposition
+
+**목표(스펙) / Spec**
+- 입력 Input: Week 4 Acceptance Criteria
+- 처리 Processing: Acceptance Criteria를 작은 태스크로 나누고 의존 관계를 정리
+- 출력 Output: 태스크 목록과 작업 순서
+- 실패 조건 Failure: 독립적으로 확인할 수 없는 큰 태스크가 포함됨
+
+**요청한 프롬프트 요지 / Prompt (summary)**
+Week 4 Acceptance Criteria를 독립적으로 확인할 수 있는 작은 태스크로 나누고, 태스크의 의존 관계와 작업 순서를 작성해 달라고 요청함.
+
+**결과에 대한 판단 / Decisions**
+- 채택한 부분과 이유 / Accepted, because: 검색, 데이터 확인, 결과 표시, 정보 없음 처리를 각각 태스크로 나눈 부분을 사용함.
+- 수정한 부분과 이유 / Changed, because: 우리 팀의 실제 프로젝트 범위에 맞게 태스크 내용을 간단하게 수정함.
+- 폐기한 부분과 이유 / Rejected, because: 핵심 기능과 관계없는 추가 기능은 제외함.
+
+**검증 방법 / How it was verified**
+각 태스크가 따로 완료되었는지 확인할 수 있는지 확인하고, 태스크 간 선후 관계가 맞는지 확인함.
+---
 ## [이슈 #__] 제목 / Title
 
 **목표(스펙) / Spec**
