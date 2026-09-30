@@ -10,7 +10,7 @@
 ## ① 주제 확정 / Confirm topic
 
 - 확정 주제 / Topic: Halal Hunter (HxH)
-- 이유 / Reason: Muslim students in Ansan struggle to verify which food and places are halal. With very few certified halal listings available, they rely on word of mouth from other students and personal experience, which are often unreliable. 
+- 이유 / Reason: 안산에 거주하는 무슬림 학생들은 어떤 음식과 장소가 할랄(halal)인지 확인하는 데 어려움을 겪고 있습니다. 공식 인증을 받은 할랄 관련 정보가 거의 없기 때문에, 학생들은 주로 다른 학생들의 입소문이나 개인적인 경험에 의존하는데, 이는 종종 신뢰하기 어렵습니다. 
 
 ---
 
