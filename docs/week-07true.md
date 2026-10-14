@@ -1,8 +1,8 @@
 # Week 07 팀 활동지 / Team Activity
 
 | 팀명 / Team | 작성일 / Date | 참여자 / Members |
-| team1 | 14일10월 |아킬, 아디브, 아이만, 아마르|
-| | | |
+| team1 | 14일10월 |아킬, 아디브, 아이만, 아마르| | | | 
+
 
 ## 1. 아키텍처 다이어그램 / Architecture Diagram
 
