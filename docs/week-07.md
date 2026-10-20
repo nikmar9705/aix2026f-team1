@@ -6,9 +6,10 @@
 
 ## 1. 아키텍처 다이어그램 / Architecture Diagram
 
-![architecture](architecture.jpg)
+<img width="872" height="1280" alt="photo_2026-10-21_07-19-00" src="https://github.com/user-attachments/assets/86028af4-baf0-4d99-95ec-2b7962b3edb1" />
+<img width="884" height="1280" alt="photo_2026-10-21_07-19-02" src="https://github.com/user-attachments/assets/674c8822-8eae-48ae-9d73-99d008c684ef" />
+<img width="854" height="1280" alt="photo_2026-10-21_07-19-03" src="https://github.com/user-attachments/assets/ae003bd4-6a6f-434f-a52b-34fb581989a1" />
 
-Add the hand-drawn photo as `docs/architecture.jpg`. Sketch three stacked boxes with arrows pointing downward only: Presentation → Logic → Data. Put the AI service as a small box beside Logic, connected only to Logic.
 
 Screen sketches: see the clickable prototype at https://claude.ai/artifact/Ruqs4wU1dTWFEm2D2ojS4z.
 
