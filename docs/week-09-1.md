@@ -48,16 +48,16 @@
 
 | # | 제목 Title | 담당 Owner | 완료 Done |
 |---|---|---|---|
-| T3 | 식당 15곳 시드 데이터 | Adib | [ ] |
-| T1 | 지도 화면(첫 화면) | Irfan | [ ] |
-| T2 | 하단 탭 5개 | Aqil | [ ] |
-| T19 | 카카오·구글 로그인 | Nik Ammar | [ ] |
+| T3 | 식당 15곳 시드 데이터 | Adib | [O] |
+| T1 | 지도 화면(첫 화면) | Irfan | [O] |
+| T2 | 하단 탭 5개 | Aqil | [O] |
+| T19 | 음식 프로필 및 필터 | Nik Ammar | [O] |
 
 ---
 
 ## ④ 오늘 진행한 것 / Progress today
 
-- [ ] 이번 활동에서 AI를 사용했다면 `PROMPTS.md`에 기록했습니다 / Logged any AI use in `PROMPTS.md`
+- [O] 이번 활동에서 AI를 사용했다면 `PROMPTS.md`에 기록했습니다 / Logged any AI use in `PROMPTS.md`
 
 ---
 
