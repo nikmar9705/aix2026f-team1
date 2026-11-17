@@ -72,11 +72,15 @@
 
 | 문제 | 언제 알았나 | 왜 못 고쳤나 | 사용자에게 알릴 것인가 |
 |---|---|---|---|
-|  |  |  |  |
+| A GPS check-in can be faked, so a "Location check-in" review may come from someone who never ate there. | Week 12 (Aqil's review of PR #74) | Phone GPS can't be verified by any app. A QR code at the counter needs the owner portal to show it. | Yes: those reviews say "📍 Location check-in"; only completed bookings say "✓ Verified visit". |
+| Dish tags are our reading of the menu and common recipes, not the restaurant's own declaration. "May contain" is a best guess. | Week 11 (dish library) | We can't get ingredient lists from 3,000 restaurants, and owners rarely publish them. | Yes: unsure dishes show "Ask first" with a Korean question for the staff, and the app says it is not halal certification. |
+| Menus come from photos and can go out of date (prices, new dishes). | Week 11 | No feed from restaurants; updates depend on people sending photos (#82). | Yes: each dish shows how many people checked it and when. |
+| The shared test owner account (owner-test@example.com) owns a real restaurant (TriBoTea), so testers can see its booking requests. | Week 12 (security review) | Needed so the team can test the owner portal. | No real users affected yet. Delete it before real customers book TriBoTea. |
+| `021_featured_dish_media.sql` (#69) is not applied in Supabase, so no featured dish photo shows. | Week 12 (pre-deploy check) | Waiting for the owner of #69 to run it. | No: nothing breaks, the photo is just missing. |
+| The AI "Why?" explanation (#85) has not run against the real API, and has no call limit yet. | Week 12 (review of PR #85) | No API key yet. | The sheet labels the AI part and always shows the data reasons. A call limit goes in before the key. |
 
 > **감추지 않는 것이 평가 대상입니다.** 여기 적힌 내용은 감점 사유가 아닙니다.
 > *Being honest here is what is graded. Entries here do not lose you points.*
-
 ---
 
 ## 6. 결정 로그 / Decision log
