@@ -4,7 +4,7 @@
 **테스트와 검증 / Testing and verification**
 
 - 작성일 / Date: 2026-11-17
-- 참여자 / Present: 아디브 (Adib)
+- 참여자 / Present: 아디브, 아이만, 아킬, 아마르
 - 결과보고서 / Report chapter: 7장 검증과 실행 환경
 - 최종 반영 / Feeds into: tests/ 폴더 → in the code repo `Irfnaimann02/mukji` the tests live in `mobile/src/logic/__tests__/` (where Jest/Expo expects them), run with `npm test` inside `mobile/`
 
