@@ -77,7 +77,7 @@
 | Menus come from photos and can go out of date (prices, new dishes). | Week 11 | No feed from restaurants; updates depend on people sending photos (#82). | Yes: each dish shows how many people checked it and when. |
 | The shared test owner account (owner-test@example.com) owns a real restaurant (TriBoTea), so testers can see its booking requests. | Week 12 (security review) | Needed so the team can test the owner portal. | No real users affected yet. Delete it before real customers book TriBoTea. |
 | `021_featured_dish_media.sql` (#69) is not applied in Supabase, so no featured dish photo shows. | Week 12 (pre-deploy check) | Waiting for the owner of #69 to run it. | No: nothing breaks, the photo is just missing. |
-| The AI "Why?" explanation (#85) has not run against the real API, and has no call limit yet. | Week 12 (review of PR #85) | No API key yet. | The sheet labels the AI part and always shows the data reasons. A call limit goes in before the key. |
+| The AI ("Why?" and Menu Scanner) can misread a menu. In the first real scan (일미닭갈비), 닭·삼 came out as "Chicken and 삼" and only Ask first, though 삼 is 삼겹살 (pork belly). We fixed that case in the prompt, but other short names may still be missed. | 19 Nov (first real scan) | An AI reading of a photo can never be fully checked by us. | Yes: scanned dishes say "Read from a photo by AI and not checked by anyone"; the app, not the AI, decides Safe / Ask first / Avoid; unsure ingredients become "may contain". |
 
 > **감추지 않는 것이 평가 대상입니다.** 여기 적힌 내용은 감점 사유가 아닙니다.
 > *Being honest here is what is graded. Entries here do not lose you points.*
@@ -89,4 +89,6 @@
 
 | 날짜 | 상황 | 우리의 결정 | 근거 |
 |---|---|---|---|
-|  |  |  |  |
+| 2026-11-19 | Gemini's free tier kept failing ("high demand" or no answer), and Google may use free-tier content to improve its products. | Use Claude Haiku on $5 prepaid credit with auto-reload off. | Works reliably for the demo; spending stops when the credit runs out; under Anthropic's commercial terms, API data is not used for training by default. |
+| 2026-11-19 | What the AI is sent. | Only the dish name, ingredients, restaurant type, halal certificate, 원산지 lines and the user's diet / allergy choices, or the menu photo. No name, email, account ID or location. Menu photos sent to the scanner are not stored. | Data we never send cannot leak. |
+| 2026-11-19 | Someone could run up AI costs. | Daily limits per person and for the whole app (027: 30 explains / 10 scans per person, 1,000 / 200 for the app), checked in the database before any AI call. | Caps cost and abuse even if a login is misused. |
